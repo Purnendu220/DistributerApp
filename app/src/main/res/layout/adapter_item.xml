@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/parentRL_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/margin_2"
+            android:layout_margin="@dimen/margin_5"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="8dp">
+            <LinearLayout
+                android:id="@+id/parentRL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:layout_editor_absoluteY="0dp"
+                tools:layout_editor_absoluteX="8dp">
+            <LinearLayout
+                android:id="@+id/item_LL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+                <TextView
+                    android:id="@+id/text_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_5"
+                    android:textSize="@dimen/text18size"
+                    android:layout_weight="1"
+                    android:text="jsajkdhjkdhas" />
+                <TextView
+                    android:id="@+id/text_qty"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_5"
+                    android:textSize="@dimen/text18size"
+                    android:layout_weight="1"
+                    android:text="jsajkdhjkdhas" />
+
+
+            </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/item_LL1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    >
+                    <TextView
+                        android:id="@+id/text_rate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_5"
+                        android:textSize="@dimen/text18size"
+                        android:layout_weight="1"
+                        android:text="jsajkdhjkdhas" />
+                    <TextView
+                        android:id="@+id/text_gst"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin_5"
+                        android:textSize="@dimen/text18size"
+                        android:layout_weight="1"
+                        android:text="jsajkdhjkdhas" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/text_total"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_5"
+                    android:textSize="@dimen/text18size"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="jsajkdhjkdhas" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="abpl.billingapp.MainActivity"
+    tools:showIn="@layout/activity_main">
+    <LinearLayout
+        android:id="@+id/parentRL_main"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/margin_2"
+        android:layout_margin="@dimen/margin_5"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+    <LinearLayout
+        android:id="@+id/parentRL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+
+
+    <Spinner
+        android:id="@+id/spinner_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:entries="@array/item_list"
+
+        />
+        <EditText
+            android:id="@+id/text_rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Rate"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="@dimen/margin_5"
+
+            />
+        <EditText
+            android:id="@+id/text_gst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="GST %"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="@dimen/margin_10"
+            android:enabled="false"
+
+            />
+    <EditText
+        android:id="@+id/text_qty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantity"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="@dimen/margin_5"
+        android:enabled="false"
+
+        />
+        <TextView
+            android:id="@+id/text_total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_5"
+            android:gravity="center"
+            android:textSize="@dimen/text18size"
+            android:text="Total:-" />
+
+        <Button
+            android:id="@+id/button_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/app_color"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/margin_5"
+            android:enabled="false"
+            android:text="Add Iten" />
+
+    </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/candidate_joblisting_filterRV"
+        android:layout_marginLeft="@dimen/margin_5"
+        android:layout_marginRight="@dimen/margin_5"
+        android:layout_marginTop="@dimen/margin_10"
+       >
+    </android.support.v7.widget.RecyclerView>
+  </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
+

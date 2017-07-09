@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">BillingApp</string>
+    <string name="action_settings">Add Item</string>
+    <string-array name="item_list">
+        <item>Sparkle  200 ML  -10</item>
+        <item>Sparkle  200 ML  -12</item>
+        <item>Sparkle  300 ML -20</item>
+        <item>Sparkle  600 ML -35</item>
+        <item>Sparkle  1250 ML -60</item>
+        <item>Sparkle  2000 ML -85</item>
+        <item>Can  180 ML -20</item>
+        <item>Can  300 ML -30</item>
+        <item>Soda  600 ML -15</item>
+        <item>Water  1000 ML -15</item>
+        <item>Water  1000 ML -18</item>
+        <item>Water  2000 ML -30</item>
+        <item>Juice  TP -10</item>
+        <item>Juice  200 ml -10</item>
+        <item>Juice  200 ml -12</item>
+        <item>Juice  250 ML -20</item>
+        <item>Juice  600 ML -35</item>
+        <item>Juice  1200 ML -65</item>
+        <item>Juice  1750 ML -90</item>
+    </string-array>
+</resources>
