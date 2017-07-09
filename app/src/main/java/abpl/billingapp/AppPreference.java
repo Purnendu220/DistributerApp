@@ -45,6 +45,13 @@ public class AppPreference {
         mPrefsEditor.putString(key, token_value);
         mPrefsEditor.commit();
     }
+    public void setValue(String key,int token_value) {
+        mPrefsEditor.putInt(key, token_value);
+        mPrefsEditor.commit();
+    }
+    public int getgstrates(){
+        return mPrefs.getInt(ITEM_LIST, 0);
+    }
     public String getItemList()
     {
         return mPrefs.getString(ITEM_LIST, "{\"item_list\":[\n" +

@@ -44,7 +44,7 @@ public class ItemListAdapter extends RecyclerView.Adapter<ItemListAdapter.ViewHo
     @Override
     public void onBindViewHolder(final ViewHolder holder, int position) {
         ItemList_ data=mList.get(position);
-       // FontTypeFace.setRobotoThinTypeFace(mContext,holder.prod_text_target,holder.prod_text_ytd,holder.prod_text_mtd,holder.prod_text_day,holder.pe_text_target,holder.pe_text_ytd,holder.pe_text_mtd,holder.pe_data_day,holder.me_text_target,holder.me_text_ytd,holder.me_text_mtd,holder.me_text_day,holder.text_date2,holder.text_date1,holder.text_date,holder.text_line_name,holder.text_item_name, holder.text_user_name);
+        FontTypeFace.setRobotoThinTypeFace(mContext,holder.text_item,holder.text_qty,holder.text_rate,holder.text_gst,holder.text_total);
         //FontTypeFace.setRobotoMediumTypeFace(mContext,holder.prod_text_target_head,holder.prod_text_day_head,holder.prod_text_mtd_head,holder.prod_text_ytd_head,holder.pe_text_target_head,holder.pe_text_day_head,holder.pe_text_mtd_head,holder.pe_text_ytd_head,holder.me_text_target_head,holder.me_text_day_head,holder.me_text_mtd_head,holder.me_text_ytd_head);
 
         holder.text_item.setText(data.getItemName());

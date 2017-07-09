@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
     <LinearLayout
         android:id="@+id/parentRL_main"
         android:layout_width="match_parent"
@@ -31,6 +31,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:weightSum="2"
+                android:layout_marginLeft="@dimen/margin_5"
                 >
                 <TextView
                     android:id="@+id/text_item"
@@ -39,6 +40,7 @@
                     android:layout_marginTop="@dimen/margin_5"
                     android:textSize="@dimen/text18size"
                     android:layout_weight="1"
+                    android:textColor="@color/black"
                     android:text="jsajkdhjkdhas" />
                 <TextView
                     android:id="@+id/text_qty"
@@ -47,6 +49,8 @@
                     android:layout_marginTop="@dimen/margin_5"
                     android:textSize="@dimen/text18size"
                     android:layout_weight="1"
+                    android:textColor="@color/black"
+
                     android:text="jsajkdhjkdhas" />
 
 
@@ -57,6 +61,8 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:weightSum="2"
+                    android:layout_marginLeft="@dimen/margin_5"
+
                     >
                     <TextView
                         android:id="@+id/text_rate"
@@ -65,6 +71,8 @@
                         android:layout_marginTop="@dimen/margin_5"
                         android:textSize="@dimen/text18size"
                         android:layout_weight="1"
+                        android:textColor="@color/black"
+
                         android:text="jsajkdhjkdhas" />
                     <TextView
                         android:id="@+id/text_gst"
@@ -73,6 +81,8 @@
                         android:layout_marginTop="@dimen/margin_5"
                         android:textSize="@dimen/text18size"
                         android:layout_weight="1"
+                        android:textColor="@color/black"
+
                         android:text="jsajkdhjkdhas" />
 
 
@@ -86,6 +96,9 @@
                     android:textSize="@dimen/text18size"
                     android:layout_weight="1"
                     android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+
                     android:text="jsajkdhjkdhas" />
 
             </LinearLayout>

@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">BillingApp</string>
-    <string name="action_settings">Add Item</string>
+    <string name="action_settings">Clear Items</string>
     <string-array name="item_list">
         <item>Sparkle  200 ML  -10</item>
         <item>Sparkle  200 ML  -12</item>
@@ -22,4 +22,26 @@
         <item>Juice  1200 ML -65</item>
         <item>Juice  1750 ML -90</item>
     </string-array>
+    <integer-array name="gst_rates">
+        <item>40</item>
+        <item>40</item>
+        <item>40</item>
+        <item>40</item>
+        <item>40</item>
+        <item>40</item>
+        <item>40</item>
+        <item>40</item>
+        <item>18</item>
+        <item>18</item>
+        <item>18</item>
+        <item>18</item>
+        <item>18</item>
+        <item>12</item>
+        <item>12</item>
+        <item>12</item>
+        <item>12</item>
+        <item>12</item>
+        <item>12</item>
+        <item>12</item>
+    </integer-array>
 </resources>
