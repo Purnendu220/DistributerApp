@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">BillingApp</string>
     <string name="action_settings">Clear Items</string>
+
     <string-array name="item_list">
         <item>Sparkle  200 ML  -10</item>
         <item>Sparkle  200 ML  -12</item>
@@ -44,7 +45,7 @@
         <item>6</item>
         <item>6</item>
     </integer-array>
-     <integer-array name="cgst_rates">
+    <integer-array name="cgst_rates">
         <item>14</item>
         <item>14</item>
         <item>14</item>

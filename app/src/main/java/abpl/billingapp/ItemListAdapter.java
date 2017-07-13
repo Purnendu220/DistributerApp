@@ -45,7 +45,8 @@ public class ItemListAdapter extends RecyclerView.Adapter<ItemListAdapter.ViewHo
     @Override
     public void onBindViewHolder(final ViewHolder holder, int position) {
         ItemList_ data=mList.get(position);
-        FontTypeFace.setRobotoThinTypeFace(mContext,holder.input_item_name,holder.input_item_qty,holder.input_item_sale_percase,holder.input_total_amount,holder.input_discount);
+        FontTypeFace.setRobotoThinTypeFace(mContext,holder.input_item_name,holder.input_item_qty,holder.input_item_sale_percase,holder.input_item_sale_percase1,holder.input_total_amount,holder.input_discount
+        ,holder.input_taxable_amount,holder.input_gst,holder.input_sgst,holder.input_cess,holder.input_perbottol_rate,holder.input_discounted_bottol,holder.input_scheme);
         //FontTypeFace.setRobotoMediumTypeFace(mContext,holder.prod_text_target_head,holder.prod_text_day_head,holder.prod_text_mtd_head,holder.prod_text_ytd_head,holder.pe_text_target_head,holder.pe_text_day_head,holder.pe_text_mtd_head,holder.pe_text_ytd_head,holder.me_text_target_head,holder.me_text_day_head,holder.me_text_mtd_head,holder.me_text_ytd_head);
 
         holder.input_item_name.setText(data.getItemName());
@@ -60,6 +61,7 @@ public class ItemListAdapter extends RecyclerView.Adapter<ItemListAdapter.ViewHo
         holder.input_perbottol_rate.setText(data.getPer_bottol_rate());
         holder.input_discounted_bottol.setText(data.getDiscounted_bottel());
         holder.input_scheme.setText(data.getScheme());
+        holder.input_item_sale_percase1.setText(data.getItemRate());
 
 
     }
@@ -87,6 +89,7 @@ public class ItemListAdapter extends RecyclerView.Adapter<ItemListAdapter.ViewHo
         EditText input_discounted_bottol = (EditText) itemView.findViewById(R.id.input_discounted_bottol);
         EditText input_scheme = (EditText) itemView.findViewById(R.id.input_scheme);
         EditText input_item_qty=(EditText) itemView.findViewById(R.id.input_item_qty);
+        EditText input_item_sale_percase1=(EditText) itemView.findViewById(R.id.input_item_sale_percase1);
 
 
 
