@@ -23,19 +23,73 @@
         <item>Juice  1750 ML -90</item>
     </string-array>
     <integer-array name="gst_rates">
-        <item>40</item>
-        <item>40</item>
-        <item>40</item>
-        <item>40</item>
-        <item>40</item>
-        <item>40</item>
-        <item>40</item>
-        <item>40</item>
-        <item>18</item>
-        <item>18</item>
-        <item>18</item>
-        <item>18</item>
-        <item>18</item>
+        <item>14</item>
+        <item>14</item>
+        <item>14</item>
+        <item>14</item>
+        <item>14</item>
+        <item>14</item>
+        <item>14</item>
+        <item>14</item>
+        <item>9</item>
+        <item>9</item>
+        <item>9</item>
+        <item>9</item>
+        <item>9</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+    </integer-array>
+     <integer-array name="cgst_rates">
+        <item>14</item>
+        <item>14</item>
+        <item>14</item>
+        <item>14</item>
+        <item>14</item>
+        <item>14</item>
+        <item>14</item>
+        <item>14</item>
+        <item>9</item>
+        <item>9</item>
+        <item>9</item>
+        <item>9</item>
+        <item>9</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+        <item>6</item>
+    </integer-array>
+    <integer-array name="nob">
+        <item>24</item>
+        <item>24</item>
+        <item>24</item>
+        <item>24</item>
+        <item>12</item>
+        <item>9</item>
+        <item>36</item>
+        <item>24</item>
+        <item>24</item>
+        <item>24</item>
+        <item>15</item>
+        <item>15</item>
+        <item>9</item>
+        <item>27</item>
+        <item>24</item>
+        <item>24</item>
+        <item>24</item>
+        <item>24</item>
+        <item>12</item>
+        <item>9</item>
+    </integer-array>
+
+    <integer-array name="cess_rates">
         <item>12</item>
         <item>12</item>
         <item>12</item>
@@ -43,5 +97,18 @@
         <item>12</item>
         <item>12</item>
         <item>12</item>
+        <item>12</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
     </integer-array>
 </resources>

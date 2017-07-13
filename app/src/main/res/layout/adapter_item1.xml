@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="@dimen/margin_2"
+    android:layout_margin="@dimen/margin_5"
+    tools:layout_editor_absoluteY="0dp"
+    tools:layout_editor_absoluteX="8dp">
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/item_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/input_item_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Item Name"
+                android:enabled="false"
+                android:textColor="@color/black"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/item_sale_percase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/input_item_sale_percase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Sales Per Case"
+                android:enabled="false"
+                android:textColor="@color/black"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/input_item_qty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Case Sold"
+                android:enabled="false"
+                android:textColor="@color/black"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/input_total_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Total Amount"
+                android:enabled="false"
+                android:textColor="@color/black"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/input_discount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Discount"
+                android:enabled="false"
+                android:textColor="@color/black"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/input_taxable_amount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Taxable Amount"
+                android:enabled="false"
+                android:textColor="@color/black"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/input_gst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="SGST Amount"
+                android:enabled="false"
+                android:textColor="@color/black"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/input_sgst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="CGST Amount"
+                android:enabled="false"
+                android:textColor="@color/black"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/input_cess"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Cess Amount"
+                android:enabled="false"
+                android:textColor="@color/black"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/input_perbottol_rate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Rate"
+                android:enabled="false"
+                android:textColor="@color/black"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/input_discounted_bottol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Discounted Bottol"
+                android:enabled="false"
+                android:textColor="@color/black"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/input_scheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Bottle Scheme"
+                android:enabled="false"
+                android:textColor="@color/black"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+    </android.support.v7.widget.CardView>
